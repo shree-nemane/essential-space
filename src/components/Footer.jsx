@@ -15,20 +15,20 @@ export const Footer = () => {
                         </div>
               <span className="font-[SweetApricot] text-3xl text-gray-900 ">Essential Space</span>
             </Link>
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-400 font-[AksharRegular]">
               © {new Date().getFullYear()} Essential Space. All rights reserved.
             </p>
           </div>
 
-          <div className="flex gap-8 text-sm text-gray-500">
-             <Link to="/privacy" className="hover:text-black transition-colors">Privacy Policy</Link>
-             <Link to="/terms" className="hover:text-black transition-colors">Terms of Use</Link>
-             <Link to="/contact" className="hover:text-black transition-colors">Contact</Link>
+          <div className="flex gap-8 font-[AksharRegular] text-sm text-gray-500">
+             <Link to="/privacy" className="hover:text-black transition-colors animated-underline">Privacy Policy</Link>
+             <Link to="/terms" className="hover:text-black transition-colors animated-underline">Terms of Use</Link>
+             <Link to="/contact" className="hover:text-black transition-colors animated-underline">Contact</Link>
           </div>
 
         </div>
         
-        <div className="mt-12 pt-8 border-t border-gray-50 text-center">
+        <div className="mt-12 pt-8 font-[AksharRegular] border-t border-gray-50 text-center">
            <p className="text-2xl font-bold text-gray-900 mb-6">Ready to create more space in your mind?</p>
            <button className="bg-gray-900 text-white px-8 py-3 rounded-full font-semibold hover:bg-black transition-colors">
              Download Essential Space

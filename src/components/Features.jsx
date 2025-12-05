@@ -98,10 +98,10 @@ const FeatureCard = memo(({ feature, delay }) => {
 
         {/* Text */}
         <div>
-          <h3 className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight mb-2">
+          <h3 className="text-xl sm:text-2xl font-[AksharSemiBold] text-gray-900 tracking-tight mb-2">
             {feature.title}
           </h3>
-          <p className="text-gray-500 text-base sm:text-lg leading-relaxed">
+          <p className="text-gray-500 text-base font-[AksharRegular] sm:text-lg leading-relaxed">
             {feature.description}
           </p>
         </div>
@@ -122,10 +122,10 @@ export const Features = () => {
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl sm:text-6xl font-semibold text-gray-900 mb-14 sm:mb-24 tracking-tight text-center md:text-left"
+          className="text-4xl sm:text-6xl font-[AksharSemiBold] text-gray-900 mb-14 sm:mb-24 tracking-tight text-center md:text-left"
         >
           Everything organized. <br />
-          <span className="text-gray-300 font-light">Without the chaos.</span>
+          <span className="text-gray-300 font-[AksharLight]">Without the chaos.</span>
         </motion.h2>
 
         {/* Responsive Grid */}
