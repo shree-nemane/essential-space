@@ -1,16 +1,15 @@
 import React, { memo } from 'react';
 import { motion } from 'framer-motion';
 import { Mic, Image, Link2, CheckSquare, RefreshCw, Zap, Infinity, Edit3, ArrowUpRight } from 'lucide-react';
-import { Feature } from '../types';
 
 // ---------------- FEATURE DATA ----------------
 
-const features: Feature[] = [
+const features = [
   {
     title: "Voice Notes + AI Summary",
     description: "Record thoughts freely — our AI instantly turns your ramblings into clean, actionable summaries you can revisit anytime.",
     icon: Mic,
-    className: "md:col-span-2"
+    className: "md:col-span-1"
   },
   {
     title: "Quick Notes",
@@ -53,7 +52,7 @@ const features: Feature[] = [
 
 const fadeVariant = {
   hidden: { opacity: 0, y: 20 },
-  visible: (delay: number) => ({
+  visible: (delay) => ({
     opacity: 1,
     y: 0,
     transition: { delay, duration: 0.45 }
@@ -62,12 +61,7 @@ const fadeVariant = {
 
 // ---------------- CARD COMPONENT ----------------
 
-interface FeatureCardProps {
-  feature: Feature;
-  delay: number;
-}
-
-const FeatureCard = memo(({ feature, delay }: FeatureCardProps) => {
+const FeatureCard = memo(({ feature, delay }) => {
   const large = feature.className?.includes("col-span-2");
 
   return (

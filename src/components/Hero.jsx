@@ -3,7 +3,9 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Apple } from 'lucide-react';
 import { PhoneMockup } from './PhoneMockup';
 
-export const Hero: React.FC = () => {
+import ios from '../assets/ios.png'
+
+export const Hero = () => {
   return (
     <section className="pt-32 pb-20 md:pt-36 md:pb-32 overflow-hidden font-['Akshar']">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
@@ -27,7 +29,8 @@ export const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
               <button className="bg-black text-white px-8 py-4 rounded-full font-[AksharSemiBold] flex items-center gap-2 hover:bg-gray-800 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-gray-200">
-                <Apple className="w-5 h-5 fill-current" />
+                {/* <Apple className="w-5 h-5 fill-current" /> */}
+                <img src={ios} className="w-5 h-5 " alt="" />
                 <span className='font-[AksharSemiBold]'>Download on App Store</span>
               </button>
               <button onClick={() => document.getElementById('features')?.scrollIntoView({behavior: 'smooth'})} className="text-gray-900 font-[AksharMedium] flex items-center gap-2 hover:gap-3 transition-all px-6 py-4">
@@ -36,7 +39,7 @@ export const Hero: React.FC = () => {
             </div>
             
             <p className="mt-8 text-sm text-gray-400 font-light">
-              Designed for iPhone & iPad.
+              Designed for iPhone & MacOS.
             </p>
           </motion.div>
         </div>

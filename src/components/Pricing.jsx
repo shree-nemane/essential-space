@@ -1,7 +1,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
 
-export const Pricing: React.FC = () => {
+export const Pricing = () => {
   return (
     <section id="pricing" className="py-24 bg-gray-50">
       <div className="max-w-4xl mx-auto px-6 text-center">
