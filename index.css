@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: SweetApricot;
+    src: url(/fonts/SweetApricot.woff2);
+}
+
+@font-face {
+    font-family: AksharMedium;
+    src: url(/fonts/Akshar-Medium.ttf);
+}
+
+@font-face {
+    font-family: AksharSemiBold;
+    src: url(/fonts/Akshar-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: AksharLight;
+    src: url(/fonts/Akshar-Light.ttf);
+}
