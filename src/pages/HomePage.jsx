@@ -43,7 +43,7 @@ const Home = () => {
                     property="og:description"
                     content="A clean, distraction-free space for students and thinkers. Capture notes, voice summaries, images, links, and tasks — synced across your Apple devices."
                 />
-                <meta property="og:image" content="https://yourdomain.com/preview.jpg" />
+                <meta property="og:image" content="https://www.essentialspace.in/logo.jpg" />
                 <meta property="og:url" content="https://www.essentialspace.in/" />
                 <meta property="og:type" content="website" />
 
@@ -51,7 +51,7 @@ const Home = () => {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Essential Space — Your Mind, Organized" />
                 <meta name="twitter:description" content="A clean and calming way to store thoughts, tasks, recordings, and images — built for iPhone & Mac." />
-                <meta name="twitter:image" content="https://yourdomain.com/preview.jpg" />
+                <meta name="twitter:image" content="https://www.essentialspace.in/logo.jpg" />
 
                 {/* Theme Color */}
                 <meta name="theme-color" content="#f3f4f6" />
@@ -71,7 +71,7 @@ const Home = () => {
                         "priceCurrency": "USD"
                     },
                     "url": "https://www.essentialspace.in/",
-                    "image": "https://yourdomain.com/preview.jpg"
+                    "image": "https://www.essentialspace.in/logo.jpg"
                     }
                     `}
                 </script>
